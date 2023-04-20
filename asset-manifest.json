@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SpotifySongData/static/css/main.a39289a5.css",
+    "main.js": "/SpotifySongData/static/js/main.f4d6cdfe.js",
+    "static/media/logo.svg": "/SpotifySongData/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/SpotifySongData/index.html",
+    "main.a39289a5.css.map": "/SpotifySongData/static/css/main.a39289a5.css.map",
+    "main.f4d6cdfe.js.map": "/SpotifySongData/static/js/main.f4d6cdfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a39289a5.css",
+    "static/js/main.f4d6cdfe.js"
+  ]
+}
