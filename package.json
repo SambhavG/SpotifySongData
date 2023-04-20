@@ -11,7 +11,6 @@
     "axios": "^0.27.2",
     "chart.js": "^3.8.0",
     "cheerio": "^1.0.0-rc.11",
-    "gh-pages": "^4.0.0",
     "graphbrainz": "^9.0.0",
     "graphql": "^16.5.0",
     "jquery": "^3.4.1",
@@ -24,6 +23,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +38,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/plugin-proposal-export-namespace-from": "^7.17.12"
+    "@babel/plugin-proposal-export-namespace-from": "^7.17.12",
+    "gh-pages": "^5.0.0"
   }
 }
